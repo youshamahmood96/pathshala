@@ -12,7 +12,8 @@ const Course = (props) => {
         <Card.Body>
           <Card.Title><h1>{props.course.name}</h1></Card.Title>
           <Card.Text>
-            <h2>Instructor : </h2><p>{props.course.instructor}</p>
+            <p>By: {props.course.instructor}</p>
+            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora laborum, veritatis nam voluptates enim sunt numquam, fuga modi quidem cumque, odit delectus iure quaerat nisi rerum neque qui asperiores eius!</span><span>Accusantium maiores hic voluptates? Corrupti veniam eos dolorem magnam quos molestiae explicabo deleniti vitae sed excepturi, reprehenderit facilis, fugit nemo illum est ea non in earum, hic quidem omnis et?</span></p>
           </Card.Text>
         </Card.Body>
         <Card.Footer>
