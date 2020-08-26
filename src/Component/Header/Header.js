@@ -20,7 +20,7 @@ const Header = () => {
                         </NavDropdown>
                     </Nav>
                     <Form inline>
-                        <FormControl type="text" placeholder="What do you want to learn.." className="mr-sm-8" />
+                        <FormControl type="text" placeholder="Search for Courses.." className="mr-sm-8" />
                         <Button>Search</Button>
                         <Button className='login' variant='none'>Log In</Button>
                     </Form>
