@@ -9,10 +9,10 @@ const Cart = (props) => {
         VAT = 0;
     }
     else if(total>200){
-        VAT =4.99;
+        VAT =12.99;
     }
     else if(total>0){
-        VAT =12.99;
+        VAT =24.99;
     }
     const tax = (total/10);
     const grandTotal = (total+VAT+Number(tax)).toFixed(2);

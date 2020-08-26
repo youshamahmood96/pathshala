@@ -17,7 +17,7 @@ const Interface = () => {
         <Col className='courses' md={8}>
         <h1>Courses</h1>
         {
-            Fakedata.map(course=><Course  handleAddCourse={handleAddCourse} course={course}></Course>)
+            Fakedata.map(course=><Course key={course.key} handleAddCourse={handleAddCourse} course={course}></Course>)
         }
         </Col>
         <Col className='cart' md={4}>
