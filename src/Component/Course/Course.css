@@ -3,3 +3,6 @@
     margin-bottom:80px;
     text-align:'left';
 }
+.instructor-container{
+    display:flex;
+}
