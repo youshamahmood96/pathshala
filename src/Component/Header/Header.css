@@ -1,0 +1,13 @@
+.header-navbar{
+    padding:20px;
+    background-color: skyblue;
+    box-shadow: 5px 5px 5px lightgray;
+    margin-bottom:20px;
+}
+Button{
+    margin-left:10px;
+}
+.login{
+    border-radius:20px;
+    margin-left:50px;
+}
