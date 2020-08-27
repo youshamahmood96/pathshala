@@ -1,5 +1,6 @@
 import React from 'react';
 import './Cart.css'
+import Added from './Added';
 
 const Cart = (props) => {
     const cart = props.cart;
@@ -27,6 +28,11 @@ const Cart = (props) => {
             <p>Tax+VAT : $ {formatNumber(tax+VAT)}</p>
             <p>Course Price : $ {total}</p>
             <p>Total Price : $ {grandTotal}</p>
+            <br></br>
+            <h1>Added Courses : </h1>
+            {
+                cart.map(added=><Added added={added}></Added>)
+            }
         </div>
     );
 };
