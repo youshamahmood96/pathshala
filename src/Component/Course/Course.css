@@ -6,3 +6,7 @@
 .instructor-container{
     display:flex;
 }
+Button{
+    display:flex;
+    Float:right;
+}

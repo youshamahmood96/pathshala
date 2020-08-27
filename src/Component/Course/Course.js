@@ -17,8 +17,8 @@ const Course = (props) => {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <p>$ {props.course.price}</p>
-          <Button onClick={() => props.handleAddCourse(props.course)}> <FontAwesomeIcon icon={faShoppingCart}/> Add to Cart</Button>
+          <p>Price : $ {props.course.price}</p>
+          <Button onClick={() => props.handleAddCourse(props.course)}> <FontAwesomeIcon icon={faShoppingCart}/> Enroll Now!</Button>
         </Card.Footer>
       </Card>
         </div>
