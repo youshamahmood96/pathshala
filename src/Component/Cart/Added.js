@@ -1,5 +1,5 @@
 import React from 'react';
-import './Added.css'
+import './Added.css';
 
 const Added = (props) => {
     return (

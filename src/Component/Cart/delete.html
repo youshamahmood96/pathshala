@@ -1,0 +1,255 @@
+<!doctype html>
+
+
+<html lang="en">
+
+
+<head>
+
+
+<meta charset="UTF-8">
+
+
+<title>Contact us - SHORAIKHANA</title>
+
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+
+</head>
+
+
+<body>
+
+
+<header>
+
+
+<img src="images/logo.jpg" alt="Logo of Shoraikhana" width="200"  height="200">
+
+
+        <h1>Contact SHORAIKHANA</h1>
+
+
+</header>
+
+
+<nav>
+
+
+<ul>
+
+
+  <li><a href="index.html">Home</a></li>
+
+
+  <li><a href="aboutus.html">About Us</a></li>
+
+
+  <li><a href="history.html">History</a></li>
+
+
+  <li><a href="menu.html">Menu</a></li>
+
+
+  <li><a href="contactus.html">Contact Us</a></li>
+
+
+  <li><a href="chef.html">Chef</a></li>
+
+
+  <li><a href="nutrition.html">Nutrition Facts</a></li>
+
+
+</ul>
+
+
+</nav>
+
+
+<main>
+
+
+         <h2>Let us know what you think</h2>
+
+
+        <form action=' ' method = 'post' autocomplete = 'on' id='customer-form'>
+
+
+        <label for = 'first-name'> First Name:</label>
+
+
+         <input type= 'text' id='first-name' name = 'first-name' placeholder = 'First name' 
+
+required><br><br>
+
+
+         <label for = 'last-name'> Last Name:</label>
+
+
+         <input type= 'text' id='last-name' name = 'last-name' placeholder = 'Last name'
+
+
+required><br><br>
+
+
+<p>Please select your gender:</p>
+
+
+
+  <input type="radio" id="male" name="gender" value="male">
+
+
+
+  <label for="male">Male</label><br>
+
+
+
+  <input type="radio" id="female" name="gender" value="female">
+
+
+
+  <label for="female">Female</label><br>
+
+
+
+  <input type="radio" id="other" name="gender" value="other">
+
+
+
+  <label for="other">Other</label>
+
+
+  <br>  
+
+
+  <p>Please select your age:</p>
+
+
+
+  <input type="radio" id="age1" name="age" value="30">
+
+
+
+  <label for="age1">0 - 30</label><br>
+
+
+
+  <input type="radio" id="age2" name="age" value="60">
+
+
+
+  <label for="age2">31 - 60</label><br>  
+
+
+
+  <input type="radio" id="age3" name="age" value="100">
+
+
+
+  <label for="age3">61 - 100</label><br><br>
+
+
+
+          <label for = 'email'> Email:</label>
+
+
+         <input type= 'text' id='email' name = 'email' autocomplete='off' placeholder = 
+
+'Email'><br><br>
+
+
+          <label for = 'phone'> Phone Number:</label>
+
+
+         <input type= 'text' id='phone' name = 'first-name' placeholder = 'Phone '><br><br> 
+
+
+          <textarea name='comment'  rows = '5' cols = '60'  form='customer-form'>
+
+
+           Leave us a comment.
+
+
+           </textarea>           
+
+
+<h2>Enter your four-digit passcode,then click OK : </h2>
+
+
+<input id="id1"  type="number" min="1000" max="9999">
+
+
+<button onclick="myFunction()">OK</button>
+
+
+<p id="passcode"></p>
+
+
+<script>
+
+
+function myFunction(){
+
+
+var inpObj = document.getElementById("id1");
+
+
+if(inpObj.checkValidity()==false){
+
+document.getElementById("passcode").innerHTML = inp.Obj.validationMessage;
+
+
+}
+
+
+else{
+
+
+document.getElementById("passcode").innerHTML = "Passcode Valid";
+
+
+}
+
+
+}
+
+
+</script>
+
+
+</main>
+
+
+<footer>
+
+<p>
+
+ <a href="index.html">Home</a>
+
+
+  <a href="aboutus.html">About Us</a>
+
+
+ <a href="history.html">History</a>
+
+
+  <a href="menu.html">Menu</a>
+
+
+  <a href="contactus.html">Contact Us</a>
+
+
+ <a href="chef.html">Chef</a>
+
+
+  <a href="nutrition.html">Nutrition Facts</a>
+
+
+</p>
+
+
+</footer>
+
+
+</html>
